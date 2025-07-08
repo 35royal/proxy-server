@@ -1,16 +1,16 @@
 {
   "name": "proxy-server",
   "version": "1.0.0",
+  "description": "Proxy server for TikTok clone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
-    "express": "^5.1.0",
-    "http-proxy-middleware": "^3.0.5"
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.6"
   }
 }
